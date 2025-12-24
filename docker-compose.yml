@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   nginx:
@@ -12,7 +12,12 @@ services:
       - php
 
   php:
-    build: ./docker/php
+    build:
+      context: ./docker/php
+      args:
+        UID: 1000
+        GID: 1000
+    user: satoko
     volumes:
       - ./src:/var/www/
 

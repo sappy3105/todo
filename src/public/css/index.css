@@ -1,0 +1,116 @@
+.header__text {
+    /* max-width: 1230px; */
+    background-color: #d1e7dd;
+    color: #0f5132;
+    padding: 5px 15px;
+    border-color: #badbcc;
+
+}
+.header__text--danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+    padding: 5px 15px;
+}
+.content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+.todo {
+    /* width: 60%; */
+}
+.create-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* height: 40px; */
+    width: 70%;
+    text-align: center;
+}
+.create-form__inner {
+    width: 70%;
+}
+.create-form__input {
+    width: 100%;
+    height: 40px;
+    /* font-size: 24px; */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.create-form__button {
+    /* padding-left: 30px; */
+    width: 20%;
+
+}
+.create-form__button-submit {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    /* font-size: 24px; */
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo-table {
+    width: 70%;
+    margin: 60px auto;
+    text-align: left;
+}
+.todo-table__inner {
+    width: 100%;
+}
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
+
+}
+.todo-table__title {
+    padding: 20px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+.todo-table-item:first-of-type {
+    width: 90%;
+    padding: 12px;
+}
+.update-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.update-form__item-input {
+    /* width: 60%; */
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.update-form__button {
+    width: 50px;
+}
+.update-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #0000ff;
+    color: #fff;
+    cursor: pointer;
+
+}
+.delete-form__button {
+    width: 50px;
+}
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
