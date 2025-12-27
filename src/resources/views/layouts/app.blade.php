@@ -18,6 +18,7 @@
             <a class="header__logo" href="/">
                 Todo
             </a>
+            <a href="/categories" class="header__logo-category">カテゴリ一覧</a>
         </div>
     </header>
     <main>

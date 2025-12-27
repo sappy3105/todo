@@ -5,10 +5,17 @@
 .header__inner {
     margin: 0 auto;
     padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .header__logo {
     color: #fff;
     text-decoration: none;
     font-size: 32px;
     font-weight: bold;
+}
+.header__logo-category {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
 }
